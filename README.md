@@ -57,5 +57,3 @@ axios.get(queryString).then((response) => {
 });
 
 ```
-
-```
