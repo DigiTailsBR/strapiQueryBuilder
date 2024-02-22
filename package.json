@@ -1,0 +1,17 @@
+{
+  "name": "strapi-query-builder",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "qs": "^6.11.2"
+  },
+  "devDependencies": {
+    "axios": "^1.4.0"
+  }
+}
