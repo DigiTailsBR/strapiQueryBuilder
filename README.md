@@ -1,7 +1,13 @@
-# Strapi EZ
+# Strapi Query Builder
 > The easiest way to build strapi queries 🚀  
 
 The StrapiEz class provides a convenient way to construct queries for interacting with a Strapi API. It offers various methods to set filters, specify fields, sort results, paginate data, and more. Here's an overview of the features and usage of the StrapiEz class:
+
+## Install
+
+```
+npm i DigiTailsBR/strapiQueryBuilder
+```
 
 ## Usage
 To get started, create an instance of the StrapiEz class. You can optionally pass a base URL to the constructor. If you don't pass a base URL, you'll need to pass a full URL to the endpoint method.
@@ -12,13 +18,12 @@ To filter the results returned by the API, you may use the where method. The whe
 ## Example
 ```js
 const { axios } = require("axios");
-const StrapiEz = require("./strapi");
+const Strapi = require("strapiQueryBuilder");
 
 const baseURL = "https://127.0.0.1:1337";
  
-
-// Create a new instance of the StrapiEz class
-let queryString = new StrapiEz()
+// Create a new instance of the class
+let queryString = new Strapi()
   // Set the base URL to "
   .baseURL(baseURL)
   // Set the endpoint to "api/offers"
