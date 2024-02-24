@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "types": "tsc"
   },
   "author": "",
   "license": "MIT",
@@ -12,6 +13,7 @@
     "qs": "^6.11.2"
   },
   "devDependencies": {
-    "axios": "^1.4.0"
+    "axios": "^1.4.0",
+    "typescript": "^5.3.3"
   }
 }

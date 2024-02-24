@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "allowJs": true,          // Allow JavaScript files to be compiled
+      "declaration": true,      // Generate corresponding '.d.ts' file
+      "emitDeclarationOnly": true, // Only emit '.d.ts' files and no JavaScript output
+      "outDir": "./types",      // Specify the output directory for '.d.ts' files
+      "noEmit": false           // Enable emitting files (important if you had set it to true before)
+    },
+    "include": [
+      "index.js"              // Adjust this to point to your JavaScript files
+    ],
+    "exclude": [
+      "node_modules"            // Typically you want to exclude node_modules
+    ]
+  }
