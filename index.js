@@ -418,4 +418,5 @@ class StrapiEz {
   }
 }
 
-module.exports = StrapiEz;
+// module.exports = StrapiEz;
+export default StrapiEz;
