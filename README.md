@@ -18,7 +18,7 @@ To filter the results returned by the API, you may use the where method. The whe
 ## Example
 ```js
 const { axios } = require("axios");
-const Strapi = require("strapiQueryBuilder");
+const Strapi = require("strapi-query-builder");
 
 const baseURL = "https://127.0.0.1:1337";
  
