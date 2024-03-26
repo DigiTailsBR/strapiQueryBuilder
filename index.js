@@ -1,4 +1,4 @@
-const qs = require("qs");
+import qs from "qs"
 
 class StrapiEz {
   #baseURL; //store the Base URL
